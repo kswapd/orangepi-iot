@@ -5,17 +5,16 @@ We use an orangepi zero and a LCD to fetch and display realtime crypto currency 
 
 
 ## Introduction
-We have to target currently:  
+We have two destinations currently:  
 * 1. Get realtime crypto currency market info from remote http server.
 * 2. Get weather forcast report from remote http server, we also want to use a sensor to capture local  temperature and humidity.
-Now we have a development kit orangepi zero and a 1.8 inch(resolution 128x160) LCD with st7735 driver. Orangepi zero supports wifi module and one SPI bus.   
-
+  
 ## Preparation
 
-### 1. Orangepi zero development kit with ubuntu 20.04 server installed.
+### 1. Orangepi zero development kit with ubuntu 20.04 system installed as a server.
 ### 2. A 1.8 inch(resolution 128x160) LCD with st7735 driver
 ### 3. sht30 temperature and humidity sensor, we use GT-HT30 to replace it as their pins are compatible.
-### 4. Orangepi can access internet  by wireless. if not,  configure file  /etc/network/interfaces as belows.
+### 4. Orangepi can access internet  by wireless. if not, configure file /etc/network/interfaces as belows.
 ```bash
 auto lo
 iface eth0 inet dhcp
@@ -131,7 +130,7 @@ apt-get install python3-smbus
    python3 orangepi-iot.py
 ```
 
-### 10. Final result
+### 10. Final result shows as belows.
 ![1.jpeg](./docs/1.jpeg)
 ![2.jpeg](./docs/2.jpeg)
 ![3.jpeg](./docs/3.jpeg)
