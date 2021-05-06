@@ -110,6 +110,9 @@ i2cdetect -y 1
 ``` 
 to test if i2c device has been configured successfully.
  
+Connected lines are as belows:
+![5.jpeg](./docs/5.jpeg)
+![6.jpeg](./docs/6.jpeg)
 
 ### 6. Install smbus 
 We use smbbus to connect i2c device, so install it:
@@ -128,7 +131,7 @@ apt-get install python3-smbus
    python3 orangepi-iot.py
 ```
 
-### Final result
+### 10. Final result
 ![1.jpeg](./docs/1.jpeg)
 ![2.jpeg](./docs/2.jpeg)
 ![3.jpeg](./docs/3.jpeg)
