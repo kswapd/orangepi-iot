@@ -1,0 +1,12 @@
+ST7735
+Pillow
+#selenium
+OPi.GPIO 
+spidev 
+Pillow 
+numpy
+bs4
+
+#apt-get install python3-numpy
+#apt-get install python3-smbus
+
