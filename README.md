@@ -1,8 +1,7 @@
 # orangepi-iot
 
 ## Description
-We use an orangepi zero and a LCD to fetch and display realtime crypto currency market info by wifi, and with an additional sht30 sensor to add to orangepi i2c driver, we can also get realtime temperature and humidity.
-
+We use an orangepi zero and a LCD to fetch and display realtime crypto currency market info from remote http server using wifi, and with help of a sht30 sensor adding to orangepi i2c driver, we can also get realtime temperature and humidity.
 
 ## Introduction
 We have two destinations currently:  
