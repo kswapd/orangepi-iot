@@ -1,11 +1,11 @@
 # orangepi-iot
 
 ## Description
-We use an orangepi zero to poll and display crypto currency market info and weather forcase report from remote http server using wifi, and with help of a sht30 sensor adding to orangepi i2c driver, we can also get realtime temperature and humidity.
+We use an orangepi zero to poll and display cryptocurrency market info and weather forcase report from remote http server using wifi, and with help of a sht30 sensor adding to orangepi i2c driver, we can also get realtime temperature and humidity.
 
 ## Introduction
 We have three destinations currently:  
-*  Poll  crypto currency market info from remote [http server](http://coinmarketcap.com/).
+*  Poll  cryptocurrency market info from remote [http server](http://coinmarketcap.com/).
 *  Poll weather forcast report from remote [http server](http://www.weather.com.cn).
 *  Use a sensor to capture local temperature and humidity in realtime.
   
